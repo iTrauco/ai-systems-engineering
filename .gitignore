@@ -1,0 +1,135 @@
+# AI/HPC Engineering .gitignore
+
+# System and environment files
+.DS_Store
+.env
+.env.*
+*.log
+*.swp
+*~
+.directory
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.venv
+venv/
+ENV/
+.ipynb_checkpoints
+
+# CUDA/GPU
+*.i
+*.ii
+*.gpu
+*.ptx
+*.cubin
+*.fatbin
+*.o
+*.obj
+*.elf
+
+# Compiled binaries
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+a.out
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# ML artifacts and data
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.pb
+*.tflite
+*.savedmodel
+*.ckpt
+*.model
+checkpoint/
+checkpoints/
+logs/
+runs/
+tensorboard/
+*/data/*
+*/datasets/*
+!*/data/.gitkeep
+!*/datasets/.gitkeep
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# IDE directories
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+.settings
+*.iml
+*.code-workspace
+.atom/
+.buildpath
+nbproject/
+.metadata
+.recommenders
+
+# Temporary files
+/tmp/
+*/tmp/*
+*.tmp
+*.temp
+*.bak
+
+# Large files
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+*.iso
+*.pdf
+*.npy
+*.npz
+*.pkl
+
+# SLURM
+slurm-*.out
+
+# Miscellaneous
+.nfs*
+*.orig
